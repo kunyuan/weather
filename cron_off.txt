@@ -1,0 +1,1 @@
+0 10 * * * /home/osmc/weather/codesend 3554822 -l 285 | echo "send Turn Off" >> /home/osmc/log.txt

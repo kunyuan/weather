@@ -1,0 +1,1 @@
+0 8 * * * /home/osmc/weather/weather.py >> /home/osmc/log.txt
