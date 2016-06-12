@@ -1,1 +1,2 @@
-0 10 * * * /home/osmc/weather/codesend 3554822 -l 285 | echo "send Turn Off" >> /home/osmc/log.txt
+0 10 * * * /home/osmc/weather/codesend 3554822 -l 285 | echo "Turn Off Lamp 1 at 10:00" >> /home/osmc/log.txt
+0 1 * * * /home/osmc/weather/codesend 3554822 -l 285 | echo "Turn Off Lamp 2 at 1:00" >> /home/osmc/log.txt
