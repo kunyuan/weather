@@ -1,3 +1,0 @@
-0 8 * * * /home/osmc/weather/weather.py >> /home/osmc/log.txt
-0 21 * * * /home/osmc/weather/codesend 2554824 -l 285 | echo "Turn On Lamp 1 at 21:00" >> /home/osmc/log.txt
-0 20 * * * /home/osmc/weather/codesend 2554818 -l 285 | echo "Turn On Lamp 2 at 21:00" >> /home/osmc/log.txt
